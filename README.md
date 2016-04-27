@@ -13,6 +13,19 @@ openweatherapp.org api.
 
 Initially, we planned to grab historical weather for cities on demand, but money. :(
 
+## Building locally and running.
+
+First, get your own openweather apikey and put in a text file in your root project directory,
+or set it in the environment varaible OPEN\_WEATHER\_API\_KEY.
+
+Then, install node.js and npm, and run:
+```bash
+npm install && npm start
+```
+This installs project dependencies and runs it on localhost port 5000.
+
+## More
+
 Here is a cow.
 
 ![Cow](http://www.alternet.org/files/styles/story_image/public/images/managed/storyimages_1331829918_cow.jpg)

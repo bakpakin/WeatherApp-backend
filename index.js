@@ -60,7 +60,7 @@ setInterval(function() {
 }, 600000);
 
 // Set up home page to server api from.
-var apiHtml = marked(fs.readFileSync('./API.md', 'utf8'));
+var apiHtml = marked(fs.readFileSync('./README.md', 'utf8'));
 app.get('/', function(req, res) {
     res.send(apiHtml);
 });
